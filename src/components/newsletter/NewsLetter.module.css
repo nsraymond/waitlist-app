@@ -1,0 +1,69 @@
+.main{
+    padding-top: 80px;
+    background-color: white;
+    height: 100vh;
+}
+.list{
+    padding-left: 64px;
+    padding-top: 43px;
+}
+
+.main__btn{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 188px;
+    height: 52px;
+    color: white;
+    font-weight: 700px;
+    background-color: var(--primaryOrange);
+    border: none;
+    border-radius: 24px;
+    line-height: 22px;
+    margin-left: 64px;
+    margin-bottom: 23px;
+}
+
+.person{
+    background-color: white;
+    width: 342px;
+    height: 48px;
+    border-radius: 24px;
+    border-bottom: solid 2.5px var(--edge);
+    border-top: solid 0.5px var(--edge);
+    border-left: solid 0.5px var(--edge);
+    border-right: solid 0.5px var(--edge);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-bottom: 24px;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+.person > p{
+    color: white;
+    width: 26px;
+    height: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--primaryOrange);
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 50%;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fullname{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+.email{
+    color: var(--secondayBlack);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}

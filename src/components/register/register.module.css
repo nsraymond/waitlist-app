@@ -1,0 +1,76 @@
+.register__card{
+    background-color: var(--primaryOrange);
+    width: 579px;
+    height: 277px;
+    border-radius: 24px;
+    margin: 0;
+    padding: 28px 31px 31px 31px;
+    font-family: 'Montserrat', sans-serif;
+}
+.formhead{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cancle{
+    color: #AFAFBD;
+    font-weight: 100;
+    font-size: small;
+   
+}
+.formhead>p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.p{
+    font-size: 13px;
+    color: white;
+    font-family: 400;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 26px;
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 51px;
+}
+input{
+    border-radius: 24px;
+    border: none;
+    height: 51px;
+    padding-left: 25px;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.names>input{
+    width: 248px;
+    
+}
+
+.joint{
+    width: 518px;
+    height: 51px;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+}
+
+.jointInput{
+    width: 400px;
+}
+
+.joint>button{
+    border: none;
+    background: white;
+    border-left: solid 2px black;
+
+}
