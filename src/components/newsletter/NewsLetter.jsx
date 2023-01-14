@@ -6,9 +6,12 @@ import Register from "../register/register";
 
 const NewsLetter=()=>{
 
+    // initializing the states
     const [modal, setModal] = useState(false);
     const [message, setMessage] = useState("");
     const [users, setUsers] = useState([]);
+
+    // fetching users from the database
     const url = 'http://localhost:5000/users';
     const getAllUsers = () => {
     axios.get(`${url}`)
@@ -24,10 +27,12 @@ const NewsLetter=()=>{
       getAllUsers();
     }, [message]);
 
+//    handling modal
     const handleModal=(value)=>{
         setModal(value);
     }
 
+    // handling message
     const handleMessage=(value)=>{
         setMessage(value)
     }

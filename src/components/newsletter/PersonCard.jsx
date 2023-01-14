@@ -3,6 +3,7 @@ import style from "./NewsLetter.module.css"
 const PersonCard=({person})=>{
 
     return (
+        // rendering the list of persons
         <div className={style.person} key={person.id}>
             <p>{person.firstName[0].toLocaleUpperCase()}</p>
             <div>

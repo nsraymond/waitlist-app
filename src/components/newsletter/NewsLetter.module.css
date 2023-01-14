@@ -21,6 +21,7 @@
     line-height: 22px;
     margin-left: 64px;
     margin-bottom: 23px;
+    cursor: pointer;
 }
 
 .person{
@@ -69,7 +70,7 @@ font-family: 'Nunito Sans', sans-serif; */
     line-height: 12px;
 }
 
-/* responsive */
+/* responsiveness */
 @media only screen and (max-width: 450px) {
     .main {
         width: 100%;

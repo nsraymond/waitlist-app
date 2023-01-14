@@ -4,6 +4,7 @@ import { useState } from "react";
 import style from './register.module.css';
 import modals from './Modal.module.css';
 
+// handling the modal
 const Register = ({modal, onhandleModal, onhandleMessage}) => {
     const [newUser, setNewUser] = useState({firstName:null, lastName:null, email:null});
 
@@ -15,6 +16,7 @@ const Register = ({modal, onhandleModal, onhandleMessage}) => {
             }})
     }
 
+    // handling the form and making the post request
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(newUser)
@@ -49,13 +51,13 @@ const Register = ({modal, onhandleModal, onhandleMessage}) => {
                     <p className={style.p}>Subscribe and recieve our newsletters to follow the news about our fresh.</p>
 
                     <form onSubmit={handleSubmit} method="POST">
-                    <div className={style.names}>
+                    <div className={style.names} id='name-input'>
                         <input type="text" name="firstName" onChange={handleChange} placeholder="Type your first name"/>
                         <input type="text" name="lastName" onChange={handleChange} placeholder="Type your last name"/>
                     </div>
 
                     <div className={style.joint}>
-                    <input className={style.jointInput} type="text" name="email" onChange={handleChange} placeholder="Type your email"/>
+                    <input className={style.jointInput} id='email-input' type="text" name="email" onChange={handleChange} placeholder="Type your email"/>
                     <button type="submit" className={style.label}>Subscribe</button>
                     </div>
                     
