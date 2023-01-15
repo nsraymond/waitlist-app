@@ -16,12 +16,14 @@
     color: #AFAFBD;
     font-weight: 100;
     font-size: small;
+    cursor: pointer;
    
 }
 .formhead>p{
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 
 .p{
     font-size: 13px;
@@ -47,6 +49,7 @@ input{
     font-size: 14px;
     letter-spacing: 0.25px;
     font-family: 'Montserrat', sans-serif;
+    outline: none;
 }
 .names>input{
     width: 248px;

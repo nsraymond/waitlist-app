@@ -52,12 +52,12 @@ const Register = ({modal, onhandleModal, onhandleMessage}) => {
 
                     <form onSubmit={handleSubmit} method="POST">
                     <div className={style.names} id='name-input'>
-                        <input type="text" name="firstName" onChange={handleChange} placeholder="Type your first name"/>
-                        <input type="text" name="lastName" onChange={handleChange} placeholder="Type your last name"/>
+                        <input type="text" name="firstName" onChange={handleChange} placeholder="Type your first name" required/>
+                        <input type="text" name="lastName" onChange={handleChange} placeholder="Type your last name" required/>
                     </div>
 
                     <div className={style.joint}>
-                    <input className={style.jointInput} id='email-input' type="text" name="email" onChange={handleChange} placeholder="Type your email"/>
+                    <input className={style.jointInput} id='email-input' type="email" name="email" onChange={handleChange} placeholder="Type your email" required/>
                     <button type="submit" className={style.label}>Subscribe</button>
                     </div>
                     
