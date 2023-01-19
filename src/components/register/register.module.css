@@ -85,12 +85,44 @@ input{
         background-color: var(--primaryOrange);
         width: 100%;
         height: 100%;
-        border-radius: 24px;
-        margin: 0 auto;
-        padding: 28px 31px 31px 31px;
+        padding-top: 80px;
+        border-radius: 0;
         font-family: 'Montserrat', sans-serif;
     }
 
+    .names{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        width: 100%;
+    }
+
+    .names>input{
+        width: 100%;
+    }
+
+    .joint{
+        width: 100%;
+
+    }
+
+    .jointInput{
+        width: 76%;
+    }
+
+   
 
 }
 
+
+@media only screen and (max-width: 360px) {
+
+    .jointInput{
+        width: 66%;
+    }
+
+    .register__card{
+        padding: 90px;
+    }
+
+}
